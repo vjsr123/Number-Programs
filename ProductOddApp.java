@@ -1,0 +1,16 @@
+package productoddnumbers;
+
+import java.util.Scanner;
+
+public class ProductOddApp {
+
+	public static void main(String[] args) {
+		Scanner scan= new Scanner(System.in);
+		System.out.println("Enter the number");
+		int n = scan.nextInt();
+		ProductOdd.oddnproduct(n);
+		// TODO Auto-generated method stub
+
+	}
+
+}
